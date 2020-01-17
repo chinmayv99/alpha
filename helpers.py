@@ -9,6 +9,7 @@ import matplotlib.image as mpimg
 # This function loads in images and their labels and places them in a list
 # The list contains all images and their associated labels
 # For example, after data is loaded, im_list[0][:] will be the first image-label pair in the list
+#helper function to load datasets
 def load_dataset(image_dir):
     
     # Populate this empty image list
